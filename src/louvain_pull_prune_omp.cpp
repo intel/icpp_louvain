@@ -427,7 +427,7 @@ void louvain_inner_loop(const u64 htblsize, const u64 maxhmsize, const u64 max_k
 		//if(iter==2) break;
         
 
-	} while (modularity - cur_mod > min_modularity && iter < MAX_INNER_LOOP);
+	} while (modularity - cur_mod > min_modularity );
 }
 
 int graph_reconstruction() {

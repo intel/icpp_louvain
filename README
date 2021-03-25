@@ -1,0 +1,10 @@
+Input file:
+The program expects a .mmio files or mtx (matrix market format) file as text input.
+
+The standard mtx (matrix market format) file usually starts with 
+N (#src_vertex) M  (#dest_vertex) E (#edges)
+      
+Followed by the edges
+u(src) v(dest) w (Weight if the WEIGHTED FLAG is ON and the graph has weights)
+
+Note: please remove all comments that start with %% from the file
